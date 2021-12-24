@@ -1,0 +1,68 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignment no 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="TOP">
+    <header class="header">
+        <div class="container clearfix">
+            <a class="brand" href="#"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="Logo"></a>
+            <nav class="nav">
+                <a href="#">HOME</a>
+                <a href="#">CONTACT</a>
+                <a href="#">SIGN UP</a>
+                <a href="#">LOGOUT</a>
+                </nav> 
+            </div>               
+    </header>
+<main>
+    <section class="section">
+    <div class="container">
+    <article class="col">            
+        <h2>This is heading</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, repellendus minima. Ipsam neque non porro accusamus, eius, voluptatum doloribus amet asperiores suscipit illo vitae officiis, natus quidem maiores sapiente dolorem?</p>
+        </article>
+        <article class="col">
+        <img class="image-two" src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="article-img">
+    </article>  
+</div>
+</section>
+    <section class="container gallery">
+        <div class="gallery-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctN2rG-zg8-DPW6uqERy070rS7LGvkoQXZA&usqp=CAU" alt="article-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6EMDEI_pP6HeKd0UuPr7-MiJp0iTkoY5GnRPjNCp9LZRbuP5WS93kos72a-PWOEQxmys&usqp=CAU" alt="article-img">
+            <img src="https://previews.123rf.com/images/famveldman/famveldman1507/famveldman150700066/42714603-little-girl-with-real-rabbit-child-playing-with-pet-bunny-kids-play-with-animals-children-at-easter-.jpg" alt="article-img">
+        </div>
+        <div class="gallery-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsJDu6sKeuBIlz8uWhSpRQcOvdRkgMkqz5ENb8qfAricAfrPSLWxrqRXsM-5nqnKSzaI&usqp=CAU" alt="article-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcVWE_sHUIvvEZZJ9t3QUvjqr4bKmeP614Aun3OK01VMJt5dfR7hTCk7h3pq0QG6B7YdI&usqp=CAU" alt="article-img">
+            <img src="https://www.rabbitcaretips.com/wp-content/uploads/2019/05/first-pet-for-child.jpg" alt="article-img">
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="bottom">
+            <a class="last" href="#TOP">TOP</a>
+        </div>        
+    </footer>
+    </body>
+</html>
