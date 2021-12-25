@@ -49,11 +49,11 @@ table {
 
 /* Custom */
 
-/* *,
+*,
 *::before,
 *::after {
 	box-sizing: border-box;
-} */
+}
 body {
     line-height: 1.5;
 	font-size: 16px;
@@ -107,6 +107,7 @@ img {
 }
 .image-two {
 	width: 100%;
+	border-radius: 10px;
 }
 h2 {
 	font-size: 32px;
@@ -120,17 +121,29 @@ p {
 	height: 250px;
 	margin: 0 1%;
 	margin-bottom: 30px;
+	border-radius: 10px;
+	object-fit: cover;
 }
 footer {
 	background-color: aquamarine;
-	height: 72px;
-	line-height: 72px;
-	width: 100%;
+	padding: 32px 0;
+	text-align: center;
 }
-.last {
-	float: right;
+.footer a {
+	font-size: 16px;
+	color: blueviolet;
+	text-decoration: none;
+	margin: 0 16px;
+}
+.top-btn {
+	width: 56px;
+	height: 56px;
 	background-color: hotpink;
 	border-radius: 50%;
-	padding: 0 8px;
-	z-index: 1;
+	position: fixed;
+	display: inline-block;
+	right: 32px;
+	bottom: 32px;
+	text-align: center;
+	line-height: 56px;
 }
